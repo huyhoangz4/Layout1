@@ -101,6 +101,7 @@
   font-family: sans-serif;
   font-size: 15px;
   width: 554px;
+  height : 200px;
 }
 input[type="submit"] {
   background-color: #33cccc;
