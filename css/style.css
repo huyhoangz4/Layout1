@@ -1,0 +1,210 @@
+/* common */
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+/* end-common */
+
+/* Header-common */
+.header-content {
+  width: 100%;
+  height: 70px;
+}
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding: 0 140px 0 140px;
+} /* End-Header-common */
+
+/* Header-logo */
+.container-img__logo {
+  width: 25px;
+  height: 20px;
+}
+/* Header-content */
+.container-content {
+  font-size: 15px;
+  font-family: Montserrat;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+}
+.container-content__home,
+.container-content__about {
+  margin: 0 15px 0 0;
+}
+.container-content__contact {
+  color: aqua;
+} /* End-Header */
+
+/* Main */
+
+/* Main-common */
+.main-content {
+  background-color: #eeeeee;
+  width: 93%;
+  height: 960px;
+  padding: 70px 0px 0px 140px;
+}
+.container-main {
+  display: flex;
+  justify-content: space-between;
+} /* End-Main-common */
+
+/* Main-info */
+.container-info {
+  width: 400px;
+  height: 150px;
+}
+.info-title {
+  font-size: 30px;
+  font-family: sans-serif;
+  padding: 0 0 35px 0;
+}
+.info-details__description {
+  color: #808080;
+  padding-bottom: 17px;
+}
+.info-details__address,
+.info-details__phone,
+.info-details__email,
+.info-details__fax {
+  font-weight: bold;
+  color: black;
+}
+/* Cần anh comment lại và giúp */
+/* Main-form */
+.container-form {
+  padding: 0 140px 0 0;
+}
+.form-login {
+  font-size: 15px;
+  font-family: sans-serif;
+}
+.login__name {
+  width: 300px;
+  height: 40px;
+}
+.login__email {
+  width: 250px;
+  height: 40px;
+  margin-bottom: 30px;
+}
+.login__title {
+  width: 554px;
+  height: 40px;
+}
+.login__cmt {
+  margin: 30px 0 30px 0;
+  font-family: sans-serif;
+  font-size: 15px;
+  width: 554px;
+}
+input[type="submit"] {
+  background-color: #33cccc;
+  color: white;
+  padding: 16px 32px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 170px;
+}
+
+/* Map */
+.container-map {
+  padding-top: 90px;
+}
+.map {
+  width: 1635px;
+  height: 500px;
+  background-color: #c0c0c0;
+  background-image: url(../img/map.png);
+}
+.map-pointer {
+  text-align: center;
+  padding: 220px 0 0 160px;
+} /* End-Main */
+
+/* Footer-common */
+.footer-content {
+  background-color: black;
+  width: 1910px;
+  height: 280px;
+}
+.container-footer {
+  color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-content-items-info {
+  margin: 70px 0 0 40px;
+}
+.footer-content-items-info__ttl {
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.footer-content-items-info__degby {
+  padding-top: 20px;
+  font-size: 15px;
+  opacity: 0.5;
+}
+ul li {
+  list-style-type: none;
+}
+.footer-content-items-info--contact {
+  padding: 80px 0 0 280px;
+  color: #808080;
+}
+.footer-content-items-info--about {
+  margin-top: 80px;
+  color: #808080;
+}
+.footer-content-items-info--about__list {
+  padding-right: 30px;
+}
+@media only screen and (max-width: 992px) {
+  .container-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 0 110px 0 100px;
+  }
+  .header-content {
+    width: 100%;
+    height: 40px;
+  }
+  .main-content {
+    background-color: #eeeeee;
+    width: 93%;
+    height: 960px;
+    padding: 50px 10px 0px 105px;
+  }
+  .form-login {
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-top: 5px;
+  }
+  .map {
+    width: 780px;
+    height: 400px;
+    background-color: #c0c0c0;
+    background-image: url(../img/map.png);
+  }
+  .footer-content {
+    background-color: black;
+    width: 999px;
+    height: 280px;
+  }
+  .container-footer {
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 70px;
+  }
+  .footer-content-items-info--contact {
+    padding: 75px 0 0 20px;
+    color: #808080;
+}
+}
